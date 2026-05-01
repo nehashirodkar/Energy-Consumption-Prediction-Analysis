@@ -81,8 +81,6 @@ Then, in order:
    shiny::runApp("app (1).R")
    ```
 
-> **Note:** the `.Rmd` and `.R` files contain hard-coded local paths (e.g. `/Users/neelamgujar/Downloads/...`). Update these to your own paths before running.
-
 ## Results
 
 - Random Forest is the strongest model on this dataset: **R² ≈ 0.927**, RMSE ≈ 3.6 on the held-out test set.
